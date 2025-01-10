@@ -1,0 +1,180 @@
+.middlesidehome {
+    width: 100%;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.story {
+    width: 760px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    overflow-x: auto;
+}
+
+.story::-webkit-scrollbar {
+    display: none;
+}
+
+.storyparty {
+    width: 66px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgdiv {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    padding: 2px;
+    border: 2px solid purple;
+}
+
+.imgid {
+    width: 100%;
+    height: 56px;
+    border-radius: 100%;
+
+}
+
+.profilename {
+    font-size: 10px;
+}
+
+/*---------*/
+
+.postsection {
+    width: 60%;
+    border-bottom: 1px solid #999999;
+}
+
+.post {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.postinfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 5px 0;
+}
+
+.postinfoimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.postinfousername {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.timing {
+    color: #999999;
+    font-size: 14px;
+}
+
+.img {
+    width: 100%;
+
+}
+
+.iconsblock {
+    width: 100%;
+    padding: 5px 0;
+    justify-content: space-between;
+}
+
+.lefticon {
+    display: flex;
+    gap: 10px;
+}
+
+.iconsblock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.iconsblock:hover {
+    cursor: pointer;
+}
+
+.likesection {
+    display: flex;
+    gap: 10px;
+}
+
+.imglikes {
+    position: relative;
+}
+
+.likeimg {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.likeimg2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 3%;
+}
+
+.likesection {
+    width: 100%;
+}
+
+.numberlikes {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.aboutpost {
+    width: 100%;
+    display: flex;
+}
+
+.postaboutname {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.infocomment {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.numberofcomments {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    color: #999999;
+}
+
+.addcomment {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    color: #999999;
+}

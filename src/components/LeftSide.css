@@ -1,0 +1,51 @@
+.leftsidepart {
+    position: fixed;
+}
+
+.logopart {
+    width: 100px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 50px;
+
+}
+
+.logoimg {
+    width: 100%;
+}
+
+.navlinkpart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.navlink {
+    display: flex;
+    border-radius: 5px;
+    height: 45px;
+    cursor: pointer;
+    margin-bottom: 14px;
+    &:hover {
+        background-color: #ededed;
+    }
+}
+
+.navname {
+    margin-bottom: 60px;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin-top: 4px;
+}
+
+.profileimg {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    margin-right: 3px;
+    
+}
+
+.belowpart {
+    margin-top: 50px;
+}
