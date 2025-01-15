@@ -4,6 +4,8 @@ import './MiddleSide.css'
 import Story from '../Story.json';
 import Post from './Posts/Post';
 
+import people from '../People.json';
+
 
 function MiddleSide() {
     const storys = Story.story;
@@ -25,10 +27,18 @@ function MiddleSide() {
             </div>
 
             <div className="postsection">
-                <Post />
-                <Post />
-                <Post />
+                {
+                    people.map((person, index) => (
+                        <Post
+                            key={index}
+                            img={person.img}
+                            name={person.name}
+                            timing="20min" // Тук може да сложите динамично време, ако е необходимо
+                        />
+                    ))
+                }
             </div>
+            
         </div>
     )
 }

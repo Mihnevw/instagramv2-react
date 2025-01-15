@@ -1,0 +1,155 @@
+/* Общ стил за цялата страница */
+.message-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: white;
+    color: #fff;
+}
+
+/* Лява странична навигация */
+.leftside {
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Основно съдържание */
+.storymessageleftside {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Горна част на съобщенията */
+.story-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.storypartymessage {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imgdivmessage {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imgidmessage {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.textdivmessage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profilenamemessage {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.paragrapgh {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(70, 68, 68);
+}
+
+/* Действия */
+.message-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #666;
+}
+
+/* Основно съдържание на съобщенията */
+.message-content {
+    text-align: center;
+}
+
+.message-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.send-message-button {
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-message-button:hover {
+    background-color: #006bb3;
+}
+
+.text-message {
+    color: #999999;
+    font-size: 14px;
+}
+
+.message-info {
+    color: #999999;
+}
+
+.message-people {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #999999;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999999;
+    border-right: 0;
+}
+
+.profilename {
+    font-size: 16px;
+    font-weight: bold;
+    color: #999999;
+    
+}
+.iconmessage {
+    color: #999999;
+}
