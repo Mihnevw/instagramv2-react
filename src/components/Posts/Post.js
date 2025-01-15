@@ -4,7 +4,6 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 
-import person from '../../Person.json';
 
 function Post({ img, name, timing }) {
     return (
@@ -12,7 +11,7 @@ function Post({ img, name, timing }) {
             <div className="postinfo">
                 <img className='postinfoimg' src={img} alt="" />
                 <div className="postinfousername">{name}</div>
-                <div className="timing">• 20min</div>
+                <div className="timing">{timing}</div>
             </div>
             {/*<div className="postinfo">
                 <img className='postinfoimg' src="https://deadline.com/wp-content/uploads/2023/03/Keanu-Reeves-john-wick-4.jpg?w=1024" alt="" />

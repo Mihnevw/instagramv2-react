@@ -1,42 +1,52 @@
 [
     {
         "name": "mihnevw",
-        "img": "https://www.verywellhealth.com/thmb/Kd6_Av_fAVBK-mgroGKtNftWqEk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-133569375-56d1e6185f9b5879cc811e98.jpg"
+        "img": "https://www.verywellhealth.com/thmb/Kd6_Av_fAVBK-mgroGKtNftWqEk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-133569375-56d1e6185f9b5879cc811e98.jpg",
+        "timing": "• 20min"
     },
     {
         "name": "Putin",
-        "img": "https://cdn-blog.superprof.com/blog_au/wp-content/uploads/2024/05/putin-president.jpg"
+        "img": "https://cdn-blog.superprof.com/blog_au/wp-content/uploads/2024/05/putin-president.jpg",
+        "timing": "• 30min"
     },
     {
         "name": "Elon Musk",
-        "img": "https://wl-brightside.cf.tsp.li/resize/728x/jpg/dee/178/413ee15d4f89a24f32de75fdb5.jpg"
+        "img": "https://wl-brightside.cf.tsp.li/resize/728x/jpg/dee/178/413ee15d4f89a24f32de75fdb5.jpg",
+        "timing": "• 40min"
     },
     {
         "name": "Kobi Bryant",
-        "img": "https://www.usmagazine.com/wp-content/uploads/2020/01/Kobe-Bryant-Dead-Shocking-Celebrity-Deaths.jpg?w=900&quality=78&strip=all"
+        "img": "https://www.usmagazine.com/wp-content/uploads/2020/01/Kobe-Bryant-Dead-Shocking-Celebrity-Deaths.jpg?w=900&quality=78&strip=all",
+        "timing": "• 25min"
     },
     {
         "name": "Brat Pitt",
-        "img": "https://i.iheart.com/v3/re/new_assets/62169ce9e23615b559ea3cd3?ops=contain(1480,0)"
+        "img": "https://i.iheart.com/v3/re/new_assets/62169ce9e23615b559ea3cd3?ops=contain(1480,0)",
+        "timing": "• 1h 10min"
     },
     {
         "name": "John Cena",
-        "img": "https://www.telegram.com/gcdn/authoring/authoring-images/2024/08/01/NPAL/74636138007-getty-images-2061736566.jpg?width=1733&height=2600&fit=crop&format=pjpg&auto=webp"
+        "img": "https://www.telegram.com/gcdn/authoring/authoring-images/2024/08/01/NPAL/74636138007-getty-images-2061736566.jpg?width=1733&height=2600&fit=crop&format=pjpg&auto=webp",
+        "timing": "• 2h 45min"
     },
     {
         "name": "Dani Alves",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6r6uKjknYrAT57mGNiNmJDXyZqOP_DD6n0g&s"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6r6uKjknYrAT57mGNiNmJDXyZqOP_DD6n0g&s",
+        "timing": "• 3h 20min"
     },
     {
         "name": "Kobi Bryant",
-        "img": "https://www.usmagazine.com/wp-content/uploads/2020/01/Kobe-Bryant-Dead-Shocking-Celebrity-Deaths.jpg?w=900&quality=78&strip=all"
+        "img": "https://www.usmagazine.com/wp-content/uploads/2020/01/Kobe-Bryant-Dead-Shocking-Celebrity-Deaths.jpg?w=900&quality=78&strip=all",
+        "timing": "• 20h"
     },
     {
         "name": "Nelsan Mandela",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-OiE5w0ZJ8G4wGnDMGYFfULkzdECgcEqvQ&s"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-OiE5w0ZJ8G4wGnDMGYFfULkzdECgcEqvQ&s",
+        "timing": "• 22h"
     },
     {
         "name": "Edi Murphy",
-        "img": "https://img.buzzfeed.com/buzzfeed-static/static/2017-02/22/18/asset/buzzfeed-prod-fastlane-02/sub-buzz-10151-1487804425-6.jpg?downsize=900:*&output-format=auto&output-quality=auto"
+        "img": "https://img.buzzfeed.com/buzzfeed-static/static/2017-02/22/18/asset/buzzfeed-prod-fastlane-02/sub-buzz-10151-1487804425-6.jpg?downsize=900:*&output-format=auto&output-quality=auto",
+        "timing": "• 5h 23min"
     }
 ]

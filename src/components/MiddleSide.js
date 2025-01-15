@@ -33,7 +33,7 @@ function MiddleSide() {
                             key={index}
                             img={person.img}
                             name={person.name}
-                            timing="20min" // Тук може да сложите динамично време, ако е необходимо
+                            timing={person.timing} // Тук може да сложите динамично време, ако е необходимо
                         />
                     ))
                 }
