@@ -1,29 +1,60 @@
-import React from 'react'
-import { useLocation, Link } from 'react-router-dom';
+
+import { useState, useEffect, useRef } from 'react';
+import axios from 'axios';
+import LeftSide from './LeftSide';
+
+import './Explore.css';
 
 function Explore() {
-const location = useLocation();
+  const [photos, setPhotos] = useState([]);
+  const inputRef = useRef(null);
+
+  const handleClick = () => {
+    inputRef.current.focus(); //Фокусира върху input полето
+  }
+
+  useEffect(() => {
+    axios.get('https://api.pexels.com/v1/curated', {
+      params: {
+        per_page: 20
+      },
+      headers: {
+        Authorization: 'kcCi7gA595DkpOFggtS7XAguOnRCBTN7tQNtyV4M9OG5rb7X9iFwWrge'
+      }
+    })
+      .then((res) => {
+        console.log(res.data)
+        setPhotos(res.data.photos);
+      })
+      .catch((error) => {
+        console.error(error);
+      })
+  }, []);
+
   return (
-    <div>
-      {location.pathname !== "/explore" ? (
-        <>
-          {/* Елементи за показване на началната страница */}
-          <div>Welcome to the homepage!</div>
-          <Link to="/explore">
-            <button>Go to Explore</button>
-          </Link>
-        </>
-      ) : (
-        <>
-          {/* Елементи за страницата на съобщенията */}
-          <div>You are now on the Explore page.</div>
-          <Link to="/">
-            <button>Back to Home</button>
-          </Link>
-        </>
-      )}
-    </div>
-  )
+    <>
+      <div className="leftside">
+        <LeftSide />
+      </div>
+      <div className="explore-container">
+        <div className="photo-grid">
+          {photos && photos.length > 0 && photos.map((photo, index) => (
+            <div key={index} className="photo-card">
+              {photo.urls ? (
+                <img src={photo.urls.small} alt={photo.alt_description || 'Photo'} />
+              ) : (
+                <p>Image not available</p> // Това ще се показва, ако няма URL за снимката
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+      <div>
+        <input ref={inputRef} type="text" placeholder='type something' />
+        <button onClick={handleClick}>Фокусирай</button>
+      </div>
+    </>
+  );
 }
 
 export default Explore;

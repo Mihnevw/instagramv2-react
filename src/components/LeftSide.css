@@ -27,6 +27,10 @@
     height: 45px;
     cursor: pointer;
     margin-bottom: 14px;
+    text-decoration: none; /* Премахва визуалните стилове */
+    color: inherit; /* Цветът се унаследява */
+    font-weight: normal;
+    outline: none; /* Премахва рамката при фокус */
 
     &:hover {
         background-color: #ededed;

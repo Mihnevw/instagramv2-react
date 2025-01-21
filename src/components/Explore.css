@@ -1,0 +1,31 @@
+/* Контейнер за Explore */
+.explore-container {
+    padding: 16px;
+    background-color: #000;
+    min-height: 100vh;
+    color: #fff;
+}
+
+/* Grid за снимките */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Равномерни колони */
+    gap: 10px; /* Разстояние между снимките */
+    padding: 20px; /* Вътрешен отстъп */
+}
+
+.photo-card {
+    border-radius: 8px; /* Заоблени ъгли */
+    overflow: hidden; /* Отрязва излишното съдържание */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Лека сянка */
+}
+
+.photo-card img {
+    width: 100%; /* Снимката запълва контейнера */
+    height: auto; /* Пропорционално оразмеряване */
+    display: block; /* Премахване на излишните отстояния */
+}
+
+.photo-card:hover img {
+    transform: scale(1.1);
+}

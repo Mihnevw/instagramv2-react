@@ -17,9 +17,11 @@ import './LeftSide.css';
 function LeftSide() {
   return (
     <div className='leftsidepart'>
-      <div className="logopart">
-        <img className='logoimg' src="https://www.pngkey.com/png/detail/2-28310_instagram-logo-black-and-ahite-instagram-word-logo.png" alt="Instagram Logo" />
-      </div>
+      <NavLink to='/'>
+        <div className="logopart">
+          <img className='logoimg' src="https://www.pngkey.com/png/detail/2-28310_instagram-logo-black-and-ahite-instagram-word-logo.png" alt="Instagram Logo" />
+        </div>
+      </NavLink>
       <div className="navlinkpart">
         <NavLink to='/' className="navlink">
           <HomeIcon sx={{ fontSize: "30px", margin: "0 1px 0 0" }} />
