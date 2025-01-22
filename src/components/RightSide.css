@@ -80,3 +80,69 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.together__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login_button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: purple;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.login_button:hover {
+    color: white;
+    background: linear-gradient(to right, red, blue);
+}
+
+.login_button::after {
+    content: '';
+    background: linear-gradient(to right, red, blue);
+    border-radius: 100px;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.register_button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: purple;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.register_button:hover {
+    color: white;
+    background: linear-gradient(to right, red, blue);
+}
+
+.register_button::after {
+    content: '';
+    background: linear-gradient(to right, red, blue);
+    border-radius: 100px;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}

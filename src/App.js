@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 
 import Login from './components/Login';
+import Register from './components/Register';
 import Message from './components/Message';
 import Home from './components/Home';
 import Search from './components/Search';
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/search" element={<Search />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/reels" element={<Reels />} />

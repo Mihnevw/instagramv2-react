@@ -11,8 +11,10 @@ function RightSide() {
 
     let guestNavigation = (
         <>
-            <NavLink to="/login">Login</NavLink>
-            <NavLink to="/register">Register</NavLink>
+            <div className="together__buttons">
+                <NavLink to="/login" className='login_button' >Login</NavLink>
+                <NavLink to="/register" className='register_button' >Register</NavLink>
+            </div>
         </>
     );
 

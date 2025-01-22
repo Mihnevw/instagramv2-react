@@ -5,8 +5,8 @@ export const AuthContext = createContext(); // Създава контекст �
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(''); // Създава състояние за потребителя
 
-    const login = (email, password) => {
-        setUser(email, password);
+    const login = (data) => {
+        setUser(data);
     }
 
     return (

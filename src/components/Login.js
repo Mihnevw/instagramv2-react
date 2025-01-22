@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
 import * as AuthService from '../services/AuthService';
+import './Login.css';
 
 const Login = () => {
     const { login } = useAuth();
@@ -35,13 +36,13 @@ const Login = () => {
     }
 
     return (
-        <div>
+        <div className="login">
             <form onSubmit={handleSubmit} method="POST">
                 <h1>Login</h1>
                 {error && <div style={errorStyle}>{error}</div>}
 
                 {success && <div style={successStyle}>{success}</div>}
-                <div>
+                <div className="email_login">
                     <label htmlFor="email">Email:</label>
                     <input
                         type="text"
@@ -50,7 +51,7 @@ const Login = () => {
                         onChange={(e) => setEmail(e.target.value)}
                     />
                 </div>
-                <div>
+                <div className="password_login">
                     <label htmlFor="password">Password:</label>
                     <input
                         type="password"
@@ -60,7 +61,7 @@ const Login = () => {
                     />
                 </div>
 
-                <button type="submit">Login</button>
+                <button type="submit" style={buttonStyle}>Login</button>
             </form>
         </div>
     )
@@ -84,6 +85,16 @@ const successStyle = {
     marginBottom: '15px',
     textAlign: 'center',
 };
+
+const buttonStyle = {
+    padding: '10px',
+    backgroundColor: 'purple',
+    color: '#fff',
+    border: 'none',
+    borderRadius: '4px',
+    cursor: 'pointer',
+};
+
 
 
 export default Login;
